@@ -20,13 +20,13 @@ public class Tree_Page {
 	 @FindBy(linkText ="Overview of Trees") WebElement overviewButton;
 	 @FindBy(linkText="Try here>>>") WebElement tryhereButton;
 	 @FindBy(xpath="//button[@type='button']") WebElement runButton;  
-	 @FindBy(xpath="//div[@role='presentation'and @class='CodeMirror-lines']") WebElement txteditorField;
+	 @FindBy(css=".CodeMirror textarea") WebElement txteditorField;
 	 @FindBy(id= "output")WebElement outputField;
 	
 	 public Tree_Page(WebDriver driver) {
 		 
 			this.driver = driver;
-		    this.wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+		    this.wait=new WebDriverWait(driver,Duration.ofSeconds(20));
 		    PageFactory.initElements(driver, this);
 			
 		}
@@ -71,7 +71,6 @@ public class Tree_Page {
     		throw new IllegalStateException("alert is not present");
     	}
 	
-    	
     }
      
     public void AcceptAlert() {
