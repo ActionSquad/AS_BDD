@@ -1,15 +1,26 @@
 package stepDefinitions;
 
+import driverFactory.DriverConfig;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pages.Home_Page;
+import pages.LinkedList_Page;
+import pages.Login_Page;
+import pages.Queue_Page;
 
 public class LinkedList_Step {
 	
+	LinkedList_Page linkedlist_page = new LinkedList_Page(DriverConfig.getDriverInstance());
+	Login_Page login_page = new Login_Page(DriverConfig.getDriverInstance());
+	Home_Page home_page = new Home_Page(DriverConfig.getDriverInstance());
 
 @Given("The user logged in to dsAlgo Portal and should be in LinkedList Page")
 public void the_user_logged_in_to_ds_algo_portal_and_should_be_in_linked_list_page() {
-    
+	login_page.GetstdButton();
+   	login_page.SigninButton();
+   	login_page.LoginwithvalidCred();
+   	home_page.LinkListStrtBtn();
 }
 
 @Given("the user is in the linked list page after Logged in")

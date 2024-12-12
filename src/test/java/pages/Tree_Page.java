@@ -3,6 +3,7 @@ package pages;
 import java.time.Duration;
 
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,11 +17,12 @@ public class Tree_Page {
    WebDriver driver;
    WebDriverWait wait;
    
+  
 	@FindBy(xpath = "//a[@href='tree']") WebElement getstdButton;	
 	 @FindBy(linkText ="Overview of Trees") WebElement overviewButton;
 	 @FindBy(linkText="Try here>>>") WebElement tryhereButton;
 	 @FindBy(xpath="//button[@type='button']") WebElement runButton;  
-	 @FindBy(css=".CodeMirror textarea") WebElement txteditorField;
+	 @FindBy(xpath ="//div[@class='input']/div/div/textarea") WebElement txteditorField;
 	 @FindBy(id= "output")WebElement outputField;
 	
 	 public Tree_Page(WebDriver driver) {
@@ -78,10 +80,19 @@ public class Tree_Page {
         alert.accept();
     }
     
-    public void TextEditor(String CodeText) {
+   /* public void TextEditor() {
        wait.until(ExpectedConditions.elementToBeClickable(txteditorField));
-    	txteditorField.sendKeys(CodeText);
-    }
+    	txteditorField.sendKeys("AAA");
+    } */
+    public void TextEditor(String code) throws InterruptedException 
+    {String text=code;
+    ((JavascriptExecutor) driver).executeScript("arguments[0].setAttribute('value','"+text+"')", txteditorField);
+    txteditorField.sendKeys(code);
+    	Thread.sleep(2000);
+    	}
+    
+    
+    
     
     public String OutputTxtEditorField() {
     	return txteditorField.getText();
