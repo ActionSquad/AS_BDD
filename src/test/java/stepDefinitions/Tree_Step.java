@@ -23,7 +23,7 @@ public class Tree_Step {
 
    @Given("The user logged in to dsAlgo Portal and should be in Tree Page")
    public void the_user_logged_in_to_ds_algo_portal_and_should_be_in_tree_page() {
-	 login_page.GetstdButton();//common
+	login_page.GetstdButton();//common
    	login_page.SigninButton();//common
    	login_page.LoginwithvalidCred();//common
    	tree_page.GetStdButton();//This is only for Tree Module(Change according to your module)
@@ -71,15 +71,13 @@ public class Tree_Step {
 		Assert.assertEquals(actualTitle, expectedTitle);
     	
            }
-
-    @Given("The user is on the Try Editor page")
-    public void the_user_is_on_the_try_editor_page() {
-    	
+    
+    @Given("The user is on the Try Editor page of Overview of Trees page")
+    public void the_user_is_on_the_try_editor_page_of_overview_of_trees_page() {
     	tree_page.OverviewBtn();
     	tree_page.TryhereBtn();
-    	
-            }
-
+        
+    }
 
    @When("The user enters the Empty in Text Editor and clicks RUN button")
     public void the_user_enters_the_empty_in_text_editor_and_clicks_run_button() {
