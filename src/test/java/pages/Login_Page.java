@@ -1,5 +1,8 @@
 package pages;
 
+import java.util.List;
+import java.util.Map;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,18 +10,22 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
+import appHook.Hooks;
 
 public class Login_Page {
 	
 	WebDriver driver;
 	
-	@FindBy(className ="btn")public WebElement getStdButton;
-	@FindBy(linkText="Sign in")public	 WebElement signInButton;
+	List<Map<String, String>> Login = Hooks.Login; 
+   
+	
+	@FindBy(className ="btn") WebElement getStdButton;
+	@FindBy(linkText="Sign in") WebElement signInButton;
 	@FindBy(id="id_username")public WebElement usernameField;
 	@FindBy(id="id_password")public WebElement passwordField;
-	@FindBy(xpath="//input[@type='submit']")public WebElement loginButton;
-	@FindBy(xpath="//div[@class='alert alert-primary']")public WebElement invalidcredAlert;
-	@FindBy(xpath="//div[@class='alert alert-primary']")public WebElement loginalert;
+	@FindBy(xpath="//input[@type='submit']") WebElement loginButton;
+	@FindBy(xpath="//div[@class='alert alert-primary']") WebElement invalidcredAlert;
+	@FindBy(xpath="//div[contains(text(),'You are logged in')]") WebElement loginalert;
 	@FindBy(linkText ="Sign out") WebElement logoutButton;
 	
 	public Login_Page(WebDriver driver) {
@@ -26,7 +33,12 @@ public class Login_Page {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void signinPage() {
+	public void LoginButton() {
+		
+		loginButton.click();
+	}
+	
+	public void getstdButton() {
 		getStdButton.click();	
 	}
 	
@@ -43,22 +55,48 @@ public class Login_Page {
 	usernameField.sendKeys(username);
    }
    
-   public void emptyUsername(String password) {
+   public void emptyUsername(String username ,String password) {
+	  usernameField.sendKeys(username);
 	passwordField.sendKeys(password);
    }	
    
    public void Credentials(String username, String password) {
 	usernameField.sendKeys(username);
 	passwordField.sendKeys(password);
+
+
    }
     public void CurrentUrl() {
-    	//String url = ConfigReader.getProperty("URL");
     	String url = common.ConfigReader.getProperty("URL");
     	String curUrl =driver.getCurrentUrl();
     	System.out.println("Current URL :" +curUrl);
     	Assert.assertEquals(url, curUrl);
     }
+   public void GetstdButton() {
+	   getStdButton.click();
+   }
+   public void SigninButton() {
+	   signInButton.click();
+   }
    
+   
+   public String InvalidcredAlert() {
+	   return invalidcredAlert.getText();
+	   
+   }
+   public String LoginAlert()
+   {
+	   return loginalert.getText();
+   }
+   
+   public void LoginwithvalidCred() {
+	   String username = Login.get(0).get("username");  
+		String password = Login.get(0).get("password");
+		usernameField.sendKeys(username);
+    	passwordField.sendKeys(password);
+    	loginButton.click();
+	 
+   }
 }
 
 
@@ -101,6 +139,8 @@ return alertmsg;
 }*/
 
 
-	
+//String username = ConfigReader.getProperty("Username");  
+	 //String password = ConfigReader.getProperty("Password");
+
 
 

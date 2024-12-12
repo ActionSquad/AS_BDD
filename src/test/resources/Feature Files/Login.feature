@@ -1,7 +1,5 @@
 @Login
 Feature: Login Functionality
-
-  Background: The user navigates to the Sign-in page
   @signinpg
   Scenario: Navigate to the LOGIN Page
     Given The user is on the DS Algo Home Page
@@ -37,5 +35,7 @@ Feature: Login Functionality
     Given The user is on the DS Algo Sign-in Page
     When The user enters validUsername and validPassword
     Then The user should navigate to the Data Structure Home Page with the message You are logged in
+    
+    
     
  
