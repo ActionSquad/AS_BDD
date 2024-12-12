@@ -17,7 +17,7 @@ Feature: Tree functionality
 
   @txteditorfn
  Scenario Outline: : Verify TextEditor Functionality with different Input
-  Given The user is on the Try Editor page
+  Given The user is on the Try Editor page of Overview of Trees page
   When The user enters the <code> in Text Editor and clicks RUN button
   Then The <alert> should be displayed
    Examples: 
