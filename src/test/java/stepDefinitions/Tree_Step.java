@@ -94,9 +94,11 @@ public class Tree_Step {
     }
 
     @When("The user enters the valid code in Text Editor and clicks RUN button")
-    public void the_user_enters_the_valid_code_in_text_editor_and_clicks_run_button() {
+    public void the_user_enters_the_valid_code_in_text_editor_and_clicks_run_button() throws InterruptedException {
     	String CodeText = Login.get(0).get("code");
-    	 tree_page.TextEditor(CodeText);
+    	// tree_page.TextEditor(CodeText);
+    	
+    	tree_page.TextEditor(CodeText);
     	 tree_page.RunBtn();
     	 
     }

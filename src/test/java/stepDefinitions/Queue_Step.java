@@ -1,22 +1,39 @@
 package stepDefinitions;
 
+import org.testng.Assert;
+import java.util.List;
+import java.util.Map;
+
+import driverFactory.DriverConfig;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pages.Home_Page;
+import pages.Login_Page;
+import pages.Queue_Page;
+import appHook.Hooks;
 
 public class Queue_Step {
 	
+	Queue_Page queue_page = new Queue_Page(DriverConfig.getDriverInstance());
+	Login_Page login_page = new Login_Page(DriverConfig.getDriverInstance());
+	Home_Page home_page = new Home_Page(DriverConfig.getDriverInstance());
+	
+	List<Map<String, String>> Login = Hooks.Login;
 
 @Given("The user logged in to dsAlgo Portal and should be in Queue Page")
 public void the_user_logged_in_to_ds_algo_portal_and_should_be_in_queue_page() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
+	login_page.GetstdButton();
+   	login_page.SigninButton();
+   	login_page.LoginwithvalidCred();
+   	home_page.QueueStrtBtn();
 }
 
 @Given("the user is in the queue page after logged in")
 public void the_user_is_in_the_queue_page_after_logged_in() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
+	String actualTitle = queue_page.PageTitle();
+	String expectedTitle = Login.get(28).get("title");
+	Assert.assertEquals(actualTitle, expectedTitle);
 }
 
 @When("the user clicks implementation of queue in python link")

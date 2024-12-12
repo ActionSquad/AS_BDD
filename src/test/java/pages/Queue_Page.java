@@ -20,9 +20,8 @@ WebDriver driver;
         PageFactory.initElements(driver, this);
     }
 	
-	public void QuePgTitle()
-	{
-		driver.getTitle();
+	public String PageTitle() {
+		return driver.getTitle();	
 	}
 	
 	public void ImpQueueLink() {
