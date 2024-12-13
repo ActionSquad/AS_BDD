@@ -80,19 +80,11 @@ public class Tree_Page {
         alert.accept();
     }
     
-   /* public void TextEditor() {
+    public void TextEditor(String code) {
        wait.until(ExpectedConditions.elementToBeClickable(txteditorField));
-    	txteditorField.sendKeys("AAA");
-    } */
-    public void TextEditor(String code) throws InterruptedException 
-    {String text=code;
-    ((JavascriptExecutor) driver).executeScript("arguments[0].setAttribute('value','"+text+"')", txteditorField);
-    txteditorField.sendKeys(code);
-    	Thread.sleep(2000);
-    	}
-    
-    
-    
+    	txteditorField.sendKeys(code);
+    } 
+   
     
     public String OutputTxtEditorField() {
     	return txteditorField.getText();

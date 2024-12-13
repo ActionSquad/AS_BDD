@@ -24,6 +24,8 @@ WebDriver driver;
 	@FindBy(xpath = "//a[text()='Tree']") public WebElement Treedrpdwn;
 	@FindBy(xpath = "//a[text()='Graph']") public WebElement Graphdrpdwn;
 	
+	@FindBy(xpath = "//div[@class ='alert alert-primary']") public WebElement LoggedOutAlert;
+	
 	
 	public Home_Page(WebDriver driver) {
         this.driver = driver;
@@ -77,6 +79,8 @@ WebDriver driver;
 	public void Graphdrpdwn() {
 		Graphdrpdwn.click();
 	}
-	
+	public String LoggedOutAlert() {
+		return LoggedOutAlert.getText();
+	}
 	
 }

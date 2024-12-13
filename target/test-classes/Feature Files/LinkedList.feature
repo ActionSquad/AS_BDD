@@ -55,19 +55,19 @@ Then the user is navigated to tryeditor window
 
 @LLIntroTryEditorFunc
 Scenario Outline: Linked List Introduction TryEditor Functionality
-  Given The user is on the Try Editor Introduction page
-  When The user enters the <code> in Text Editor and clicks RUN button
-  Then The <alert> should be displayed
+Given The user is on the Try Editor Introduction page
+When The user enters the <code> in Text Editor and clicks RUN button
+Then The <alert> should be displayed
    Examples: 
       | code        | alert | 
       | Empty       | Error message in alert window| 
       |valid code   | displayed in the console | 
       |Invalid code1| nameerror pop up alert message  |
-      |Invalid code2| syntaxerror pop up alert message |  
+      |Invalid code2| syntaxerror pop up alert message | 
 
 @TryEditor2LLIntro
 Scenario: Redirected to Introduction page by clicking browser back in tryeditor window	
-Given the user is in tryeditor window
+Given The user is on the Try Editor Introduction page
 When the user click browser back arrow
 Then the user is navigated to Introduction page
 
@@ -85,19 +85,19 @@ Then the user is navigated to tryeditor window
 
 @CreateLLTryEditorFunc
 Scenario Outline: Creating linked list TryEditor Functionality
-  Given The user is on the Try Editor creating linked list page
-  When The user enters the <code> in Text Editor and clicks RUN button
-  Then The <alert> should be displayed
+Given The user is on the Try Editor creating linked list page
+When The user enters the <code> in Text Editor and clicks RUN button
+Then The <alert> should be displayed
    Examples: 
       | code        | alert | 
       | Empty       | Error message in alert window| 
       |valid code   | displayed in the console | 
       |Invalid code1| nameerror pop up alert message  |
       |Invalid code2| syntaxerror pop up alert message |
-
+      
 @TryEditor2CreateLL
 Scenario: Redirected to creating linked list page by clicking browser back from tryeditor window
-Given the user is in tryeditor window
+Given The user is on the Try Editor creating linked list page
 When the user click browser back arrow
 Then the user is navigated to creating linked list page
 
@@ -115,19 +115,19 @@ Then the user is navigated to tryeditor window
 
 @TypesLLTryEditorFunc
 Scenario Outline: Types of linked list page TryEditor Functionality
-  Given The user is on the Try Editor Types of linked list page
-  When The user enters the <code> in Text Editor and clicks RUN button
-  Then The <alert> should be displayed
+Given The user is on the Try Editor Types of linked list page
+When The user enters the <code> in Text Editor and clicks RUN button
+Then The <alert> should be displayed
    Examples: 
       | code        | alert | 
       | Empty       | Error message in alert window| 
       |valid code   | displayed in the console | 
       |Invalid code1| nameerror pop up alert message  |
       |Invalid code2| syntaxerror pop up alert message |
-
+      
 @TryEditor2TypesLL
 Scenario: Redirected to Types of linked list page by clicking browser back from tryeditor window
-Given the user is in tryeditor window
+Given The user is on the Try Editor Types of linked list page
 When the user click browser back arrow
 Then the user is navigated to Types of linked list page
 
@@ -145,9 +145,9 @@ Then the user is navigated to tryeditor window
 
 @ImpLLTryEditorFunc
 Scenario Outline: Implement linked list in python page TryEditor Functionality
-  Given The user is on the Try Editor implement linked list page
-  When The user enters the <code> in Text Editor and clicks RUN button
-  Then The <alert> should be displayed
+Given The user is on the Try Editor implement linked list page
+When The user enters the <code> in Text Editor and clicks RUN button
+Then The <alert> should be displayed
    Examples: 
       | code        | alert | 
       | Empty       | Error message in alert window| 
@@ -157,7 +157,7 @@ Scenario Outline: Implement linked list in python page TryEditor Functionality
 
 @TryEditor2ImpLL
 Scenario: Redirected to implement linked list in python page by clicking browser back from tryeditor window
-Given the user is in tryeditor window
+Given The user is on the Try Editor implement linked list page
 When the user click browser back arrow
 Then the user is navigated to implement linked list in python page
 
@@ -171,23 +171,23 @@ Then the user is navigated to traversal page
 Scenario: Navigates to Try editor window on clicking try here button from traversal page
 Given the user is in traversal page
 When the user clicks Try here>>> button
-Then the user is navigated to tryEditor window
+Then the user is navigated to tryeditor window
 
 @TraversalTryEditorFunc
 Scenario Outline: Traversal page TryEditor Functionality
-  Given The user is on the Try Editor traversal page
-  When The user enters the <code> in Text Editor and clicks RUN button
-  Then The <alert> should be displayed
+Given The user is on the Try Editor traversal page
+When The user enters the <code> in Text Editor and clicks RUN button
+Then The <alert> should be displayed
    Examples: 
       | code        | alert | 
       | Empty       | Error message in alert window| 
       |valid code   | displayed in the console | 
       |Invalid code1| nameerror pop up alert message  |
       |Invalid code2| syntaxerror pop up alert message |
-
+      
 @TryEditor2Traversal
 Scenario: Navigates back to traversal page by clicking browser back from tryeditor window
-Given the user is in tryeditor window with output in console of traversal page
+Given The user is on the Try Editor traversal page
 When the user click browser back arrow
 Then the user is navigated to traversal page
 
@@ -205,19 +205,19 @@ Then the user is navigated to tryeditor window
 
 @InsertionTryEditorFunc
 Scenario Outline: Insertion page TryEditor Functionality
-  Given The user is on the Try Editor insertion page
-  When The user enters the <code> in Text Editor and clicks RUN button
-  Then The <alert> should be displayed
+Given The user is on the Try Editor insertion page
+When The user enters the <code> in Text Editor and clicks RUN button
+Then The <alert> should be displayed
    Examples: 
       | code        | alert | 
       | Empty       | Error message in alert window| 
       |valid code   | displayed in the console | 
       |Invalid code1| nameerror pop up alert message  |
       |Invalid code2| syntaxerror pop up alert message |
-
+      
 @TryEditor2Insertion
 Scenario: Redirected to insertion page by clicking browser back from tryeditor window
-Given the user is in tryeditor window with output in console of insertion page
+Given The user is on the Try Editor insertion page
 When the user click browser back arrow
 Then the user is navigated to insertion page
 
@@ -235,9 +235,9 @@ Then the user is navigated to tryeditor window
 
 @DeletionTryEditorFunc
 Scenario Outline: Deletion page TryEditor Functionality
-  Given The user is on the Try Editor Deletion page
-  When The user enters the <code> in Text Editor and clicks RUN button
-  Then The <alert> should be displayed
+Given The user is on the Try Editor Deletion page
+When The user enters the <code> in Text Editor and clicks RUN button
+Then The <alert> should be displayed
    Examples: 
       | code        | alert | 
       | Empty       | Error message in alert window| 
@@ -247,7 +247,7 @@ Scenario Outline: Deletion page TryEditor Functionality
 
 @TryEditor2Deletion
 Scenario: Navigated back to Deletion page by clicking browser back from tryeditor window
-Given the user is in tryeditor window
+Given The user is on the Try Editor Deletion page
 When the user click browser back arrow
 Then the user is navigated to deletion page
 
