@@ -18,6 +18,7 @@ public class LinkedList_Page {
 	@FindBy(xpath = "//a[text()='Deletion']") public WebElement LLDeletion;	
 	@FindBy(xpath = "//a[text()='Practice Questions']") public WebElement PracticeQues;	
 	@FindBy(xpath = "//a[text()='Try here>>>']")public WebElement TryHere;
+	@FindBy(xpath = "//a[text()='Sign out']")public WebElement SignOut;
 	
 	
 	public LinkedList_Page(WebDriver driver) {
@@ -25,9 +26,8 @@ public class LinkedList_Page {
         PageFactory.initElements(driver, this);
     }
 	
-	public void LLPageTitle()
-	{
-		driver.getTitle();
+	public String PageTitle() {
+		return driver.getTitle();	
 	}
 	
 	public void LLIntroLink() {
@@ -63,5 +63,8 @@ public class LinkedList_Page {
 	
 	public void TryHereButton() {
 		TryHere.click();
+	}
+	public void SignOut() {
+		SignOut.click();	
 	}
 }

@@ -48,5 +48,9 @@ WebDriver driver;
 		TryHere.click();
 	}
 	
+	public void BrowserBack() {
+		driver.navigate().back();
+	}
+	
 
 }

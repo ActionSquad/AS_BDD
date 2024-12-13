@@ -36,19 +36,19 @@ Then the user is navigated to tryeditor window
 
 @ImpQueueTryEditorFunc
 Scenario Outline: Implementation of queue TryEditor Functionality
-  Given The user is on the Try Editor implementation of queue page
-  When The user enters the <code> in Text Editor and clicks RUN button
-  Then The <alert> should be displayed
+Given The user is on the Try Editor implementation of queue page
+When The user enters the <code> in Text Editor and clicks RUN button
+Then The <alert> should be displayed
    Examples: 
       | code        | alert | 
       | Empty       | Error message in alert window| 
       |valid code   | displayed in the console | 
       |Invalid code1| nameerror pop up alert message  |
-      |Invalid code2| syntaxerror pop up alert message |               
-      
+      |Invalid code2| syntaxerror pop up alert message | 
+           
 @tryeditor2Impqueue
 Scenario: Redirected to implementation of queue in python page
-Given the user is in tryeditor window
+Given The user is on the Try Editor implementation of queue page
 When the user click browser back arrow
 Then the user is navigated to implementation of queue in python page
 
@@ -79,7 +79,7 @@ Then The <alert> should be displayed
 
 @tryeditor2ImpCollection
 Scenario: Redirected to implementation using collections deque page
-Given the user is in tryeditor window
+Given The user is on the Try Editor implementation using collections deque page
 When the user click browser back arrow
 Then the user is navigated to implementation using collections deque page
 
@@ -110,7 +110,7 @@ Then The <alert> should be displayed
 
 @tryeditor2Imparray
 Scenario: Redirected to implementation using array deque page
-Given the user is in tryeditor window
+Given The user is on the Try Editor implementation using array page
 When the user click browser back arrow
 Then the user is navigated to implementation using array page
 
@@ -140,8 +140,8 @@ Then The <alert> should be displayed
       |Invalid code2| syntaxerror pop up alert message |
 
 @tryeditor2queueOperation
-Scenario: Redirected to implementation using array page
-Given the user is in tryeditor window
+Scenario: Redirected to queue operations page
+Given The user is on the Try Editor queue operations page
 When the user click browser back arrow
 Then the user is navigated to queue operations page
 
@@ -155,4 +155,6 @@ Then the user is navigated to Practice Questions page
 Scenario: signout from queue page
 Given the user is in the queue page after logged in
 When the user clicks Sign out
-Then the user is directed to homepage with message logged out successfully
+Then the user is directed to home page with message Logged out successfully
+           
+ 
