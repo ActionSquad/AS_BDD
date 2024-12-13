@@ -36,7 +36,7 @@ import io.cucumber.java.Before;
 		       }
 		    }
 		    
-		    @After
+		   @After
 		  public static void tearDown() {
 		
 		        DriverConfig.quitdriver();
