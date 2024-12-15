@@ -1,6 +1,8 @@
 package pages;
 
 import java.time.Duration;
+import java.util.List;
+import java.util.Map;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
@@ -12,10 +14,13 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import appHook.Hooks;
+
 public class Tree_Page {
 	
    WebDriver driver;
    WebDriverWait wait;
+   List<Map<String, String>> Login = Hooks.Login; //if you want to use login sheet
    
 	 @FindBy(xpath = "//a[@href='tree']") WebElement getstdButton;	
 	 @FindBy(linkText="Try here>>>") WebElement tryhereButton;
@@ -43,16 +48,13 @@ public class Tree_Page {
 	 public Tree_Page(WebDriver driver) {
 		 
 		this.driver = driver;
-	    this.wait=new WebDriverWait(driver,Duration.ofSeconds(5));
+	    this.wait=new WebDriverWait(driver,Duration.ofSeconds(10));
 	    PageFactory.initElements(driver, this);
 			
 		}
 	 
 	 public void OverviewBtn() {
-	//	 ((JavascriptExecutor) driver).executeScript("arguments[0].setAttribute()", overviewButton);
-	//	 overviewButton.click();
-	//	Actions actions = new Actions(driver); 
-	//	actions.scrollToElement(overviewButton);
+	
 	 overviewButton.click();
 	 }
 	 public void TryhereBtn() {
@@ -63,16 +65,14 @@ public class Tree_Page {
 	 public void RunBtn() {
 		 wait.until(ExpectedConditions.elementToBeClickable(runButton));
 		 runButton.click();
-	 
 	 }
-	 
     public void GetStdButton() {
     	getstdButton.click();
     }
     
     public  boolean IsAlertPresent() {
     	try {
-    		wait.until(ExpectedConditions.alertIsPresent());
+    	wait.until(ExpectedConditions.alertIsPresent());
     	return true;
     }catch (NoAlertPresentException e) {
     	return false;
@@ -80,6 +80,7 @@ public class Tree_Page {
     }
     public String AlertText() {
     	if(IsAlertPresent()) {
+    		wait.until(ExpectedConditions.alertIsPresent());
     		Alert alert = driver.switchTo().alert();
     		return alert.getText();
     	}else {
@@ -101,7 +102,10 @@ public class Tree_Page {
     	}
     
     public String OutputTxtEditorField() {
+    	String output = Login.get(0).get("output");
+        wait.until(ExpectedConditions.textToBePresentInElement(outputField,output));
     	return outputField.getText();
+    	
     }
     public void TerminologiesBtn() {
     	terminologiesButton.click();
@@ -171,7 +175,10 @@ public class Tree_Page {
 
 
 
-
+//((JavascriptExecutor) driver).executeScript("arguments[0].setAttribute()", overviewButton);
+//	 overviewButton.click();
+//	Actions actions = new Actions(driver); 
+//	actions.scrollToElement(overviewButton);
 
 
 
