@@ -1,38 +1,25 @@
 @Register
-Feature: User registration Page
-   
-  @register2empty
-  Scenario: Display error for empty username and password
-    Given The user is on the DS Algo Register Page
-    When The user clicks Register button with no inputs
-    Then The error message Please fill out this field. appears below the Username textbox for Register
+Feature: Registration Functionality
 
-  @registeremptypassword
-  Scenario: Display error for empty password field 
-    Given The user is on the DS Algo Register Page
-    When The user enters validUsername and leaves the password empty fir Register
-    Then The error message Please fill out this field. appears below the Password textbox for register
+  @regfn
+  Scenario Outline: Verifying Registration Functionality with different inputs
+    Given the User is in the Registration page
+    When the user enters <username> username <password> password <passwordconfirmation> password confirmation
+    Then the an <message> should be displayed
 
-  @registeremptyconfirmpassword
-  Scenario: Display error for empty confirmpassword field
-    Given The user is on the DS Algo Register Page
-    When The user enters validUsername,valid password  and empty confirmPassword
-    Then The error message Please fill out this field. appears below the confirmPassword textbox
+    Examples: 
+      | username | password | passwordconfirmation | message                                                           |
+      | empty    | empty    | empty                | Please fill out this field. below the username field              |
+      | valid    | empty    | empty                | Please fill out this field. below the password field              |
+      | valid    | valid1   | empty                | Please fill out this field. below the password confirmation field |
+      | valid    | invalid  | invalid              | Enter the valid password                                          |
+      | valid    | valid    | mismatch             | password mismatch message                                         |
+      | existing | existing | existing             | The User is already Registered                                    |
+    # | valid    | valid    | valid                | Successfully registered                                          |
+      | invalid  | valid    | valid                | Invalid username                                                  |
 
-  @registerinvalidcredentials
-  Scenario: Display error for invalid credentials
-    Given The user is on the DS Algo Register Page
-    When The user enters invalidUsername and invalidPassword for register
-    Then The error message Invalid Username and Password. should be displayed for register
-
-  @registervalidcredentials
-  Scenario: Registration with valid credentials
-    Given The user is on the DS Algo Register Page
-    When The user enters validUsername and validPassword and click register button
-    Then user created new account and got meassage you are logged in
-
-  @registerAlreadyAccount
-  Scenario: User already have an account
-    Given The user is on the DS Algo Register Page
-    When The user clicks below Login Link
-    Then the user should be redirected to Login page
+  @tologinpg
+  Scenario: Verify that user navigates to the login page when login link is clicked in Registration page
+    Given the User is in the Registration page
+    When the user clicks login link
+    Then The user should be redirected to the Login Page
