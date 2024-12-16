@@ -18,7 +18,7 @@ When the user clicks Try here>>> button
 Then the user is navigated to tryeditor window
 
 @OpinstacktryEditorFunction
- Scenario Outline: : Implementation of Graph TryEditor Functionality
+ Scenario Outline: : Implementation of Opinstack TryEditor Functionality
   Given The user is on the tryEditor page of Opinstack
   When The user enters the <code> in Text Editor and clicks RUN button
   Then The <alert> should be displayed
@@ -49,7 +49,7 @@ When the user clicks Try here>>> button
 Then the user is navigated to tryeditor window
 
 @iImplementationTryEditorFunction
- Scenario Outline: : Verify TryEditor Functionality with different Input
+ Scenario Outline: : Verify TryEditor Functionality with different Input in implementation
   Given The user is on the tryEditor page of Implentation
   When The user enters the <code> in Text Editor and clicks RUN button
   Then The <alert> should be displayed
@@ -81,7 +81,7 @@ When the user clicks Try here>>> button
 Then the user is navigated to tryeditor window
 
 @ApplicationsTryEditorFunction
- Scenario Outline: : Verify TryEditor Functionality with different Input
+ Scenario Outline: : Verify TryEditor Functionality with different Input in Applications
   Given The user is on the tryEditor page of applications
   When The user enters the <code> in Text Editor and clicks RUN button
   Then The <alert> should be displayed
