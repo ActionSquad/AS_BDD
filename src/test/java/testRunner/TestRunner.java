@@ -14,7 +14,7 @@ import io.cucumber.testng.CucumberOptions;
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
                 "json:target/cucumber-reports/Cucumber.json"}, //reporting purpose
 		monochrome=false,  //console output color
-		tags="@Sanity", //tags from feature file
+		tags="@Login", //tags from feature file
 		features = {"src/test/resources/Feature files"}, //location of feature files
 		glue= {"stepDefinitions","appHook"}) //location of step definition files
 
