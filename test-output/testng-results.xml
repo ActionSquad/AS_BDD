@@ -2,42 +2,26 @@
 <testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-17T13:47:11 CST" name="Default suite" finished-at="2024-12-17T13:47:30 CST" duration-ms="18505">
+  <suite started-at="2024-12-17T14:06:44 CST" name="Default suite" finished-at="2024-12-17T14:07:01 CST" duration-ms="16253">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-12-17T13:47:11 CST" name="Default test" finished-at="2024-12-17T13:47:30 CST" duration-ms="18505">
+    <test started-at="2024-12-17T14:06:44 CST" name="Default test" finished-at="2024-12-17T14:07:01 CST" duration-ms="16253">
       <class name="testRunner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T13:47:11 CST" name="setUpClass" finished-at="2024-12-17T13:47:13 CST" duration-ms="1772" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T14:06:44 CST" name="setUpClass" finished-at="2024-12-17T14:06:46 CST" duration-ms="1204" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@491f8831]]>
+                <![CDATA[org.testng.TestRunner@280fafd]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T13:47:13 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-17T13:47:23 CST" duration-ms="10057" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Display error for empty username and password"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T13:47:13 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-17T13:47:23 CST" duration-ms="9816" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T14:06:46 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-17T14:06:55 CST" duration-ms="9519" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +37,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T13:47:13 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-17T13:47:24 CST" duration-ms="11143" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T14:06:46 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-17T14:06:55 CST" duration-ms="9715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Display error for invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T14:06:46 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-17T14:06:54 CST" duration-ms="8423" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -66,14 +66,24 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Error initializing Excel data: Fail to save: an error occurs while saving the package : The part /xl/worksheets/sheet2.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@6a4c36b7. Enable logging via Log4j 2 for more details.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Error initializing Excel data: Fail to save: an error occurs while saving the package : The part /xl/worksheets/sheet2.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@6a4c36b7. Enable logging via Log4j 2 for more details.
+at appHook.Hooks.setUp(Hooks.java:35)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T13:47:13 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-17T13:47:23 CST" duration-ms="9769" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T14:06:46 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-17T14:06:55 CST" duration-ms="9747" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Successful login with valid credentials"]]>
+                <![CDATA["Display error for empty username and password"]]>
               </value>
             </param>
             <param index="1">
@@ -85,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T13:47:13 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-17T13:47:22 CST" duration-ms="9063" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T14:06:46 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-17T14:06:55 CST" duration-ms="9521" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,11 +111,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T13:47:13 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-17T13:47:22 CST" duration-ms="9063" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T14:06:46 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-17T14:06:56 CST" duration-ms="10411" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Display error for invalid credentials"]]>
+                <![CDATA["Successful login with valid credentials"]]>
               </value>
             </param>
             <param index="1">
@@ -114,20 +124,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.RuntimeException">
-            <message>
-              <![CDATA[Error initializing Excel data: org.apache.poi.openxml4j.exceptions.InvalidFormatException: Failed to parse relationships]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException: Error initializing Excel data: org.apache.poi.openxml4j.exceptions.InvalidFormatException: Failed to parse relationships
-at appHook.Hooks.setUp(Hooks.java:35)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T13:47:24 CST" name="tearDownClass" finished-at="2024-12-17T13:47:30 CST" duration-ms="5488" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T14:06:56 CST" name="tearDownClass" finished-at="2024-12-17T14:07:01 CST" duration-ms="4579" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
