@@ -1,4 +1,4 @@
-@Tree
+@Tree @DsAlgo
 Feature: Tree functionality
 
   Background: The user logged in to dsAlgo Portal

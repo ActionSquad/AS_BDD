@@ -1,4 +1,4 @@
-@LinkedList
+@LinkedList @DsAlgo
 Feature: Linked List Module
 I want to use this template for my LinkedList feature file
 

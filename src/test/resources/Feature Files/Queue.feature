@@ -1,4 +1,4 @@
-@queue
+@queue @DsAlgo
 Feature: Queue Module
 
 Background: The user logged in to dsAlgo Portal and should be in Queue Page

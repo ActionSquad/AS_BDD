@@ -1,4 +1,4 @@
-@Home
+@Home @DsAlgo @Sanity
 Feature: Home Functionality
 
   Background: The user logged in to dsAlgo Portal
