@@ -7,6 +7,7 @@ import java.util.Map;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -66,6 +67,28 @@ public class Tree_Page {
 		 wait.until(ExpectedConditions.elementToBeClickable(runButton));
 		 runButton.click();
 	 }
+//**************************************************************************************************************************
+	/* public void RunBtn() {
+	 try {
+		    // Code that might trigger the alert
+		    runButton.click();
+		} catch (UnhandledAlertException e) {
+		    // Handle the alert
+		    Alert alert = driver.switchTo().alert();
+		    System.out.println("Unexpected alert detected: " + alert.getText());
+		    alert.dismiss(); // or alert.accept();
+		} catch (Exception e) {
+		    // Handle other exceptions
+		    e.printStackTrace();
+		}
+
+	 }*/
+
+	 
+	 
+//****************************************************************************************************************************	 
+	 
+	 
     public void GetStdButton() {
     	getstdButton.click();
     }
@@ -88,12 +111,30 @@ public class Tree_Page {
     	}
 		return null;
     }
-     
-    public void AcceptAlert() {
+//---------------------------------------------------------------------------------------------------------------------------------     
+ /*   public void AcceptAlert() {
         Alert alert = driver.switchTo().alert();
         alert.accept();
+    }*/
+//----------------------------------------------------------------------------------------------------------------------------------
+   public void AcceptAlert() {
+	   Alert alert = driver.switchTo().alert();
+    try {
+    	wait.until(ExpectedConditions.alertIsPresent());
+      //  Alert alert = driver.switchTo().alert();
+        alert.accept();
+        System.out.println("Alert accepted successfully.");
+    } catch (NoAlertPresentException e) {
+    	alert.accept();
+        System.out.println("No alert present. Exception: " + e.getMessage());
+    } catch (UnhandledAlertException  e) {
+    	alert.accept();
+        System.out.println("An unexpected exception occurred: " + e.getMessage());
     }
+}
     
+    
+//---------------------------------------------------------------------------------------------------------------------------------    
     public void TextEditor(String code)
     {String text=code;
     ((JavascriptExecutor) driver).executeScript("arguments[0].setAttribute('value','"+text+"')", txteditorField);
