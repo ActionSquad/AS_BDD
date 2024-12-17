@@ -1,4 +1,4 @@
-@Stack
+@Stack @DsAlgo
 Feature: Stack Data strucutre WorkFlow
 
   Background: The user logged in to dsAlgo Portal and navigated to Stack Introduction Page

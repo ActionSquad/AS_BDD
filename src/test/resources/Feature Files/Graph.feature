@@ -1,4 +1,4 @@
-@Graph
+@Graph @DsAlgo
 Feature: Graph Module
 
 Background: The user logged in to dsAlgo Portal and navigated to Graph Introduction Page

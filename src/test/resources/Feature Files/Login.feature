@@ -1,4 +1,4 @@
-@Login
+@Login @DsAlgo @Sanity
 Feature: Login Functionality
   @signinpg
   Scenario: Navigate to the LOGIN Page

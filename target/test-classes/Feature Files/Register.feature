@@ -1,4 +1,4 @@
-@Register
+@Register @DsAlgo @Sanity
 Feature: Registration Functionality
 
   @regfn

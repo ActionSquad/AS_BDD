@@ -1,4 +1,4 @@
-@DataStructure
+@DataStructure @DsAlgo @Sanity
 Feature: DataStructure Module
 
   Background: The user logged in to dsAlgo Portal and should be in DataStructure Page

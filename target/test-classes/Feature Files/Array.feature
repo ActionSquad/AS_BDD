@@ -1,4 +1,4 @@
-@Array
+@Array @DsAlgo
 Feature: Array Module
 
   Background: The user logged in to dsAlgo Portal and should be in Array Page

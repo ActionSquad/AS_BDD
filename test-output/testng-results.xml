@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-17T13:47:11 CST" name="Default suite" finished-at="2024-12-17T13:47:30 CST" duration-ms="18505">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-12-17T13:47:11 CST" name="Default test" finished-at="2024-12-17T13:47:30 CST" duration-ms="18505">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T13:47:11 CST" name="setUpClass" finished-at="2024-12-17T13:47:13 CST" duration-ms="1772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@491f8831]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T13:47:13 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-17T13:47:23 CST" duration-ms="10057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Display error for empty username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T13:47:13 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-17T13:47:23 CST" duration-ms="9816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Display error for empty password field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T13:47:13 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-17T13:47:24 CST" duration-ms="11143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Display error for empty username field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T13:47:13 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-17T13:47:23 CST" duration-ms="9769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T13:47:13 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-17T13:47:22 CST" duration-ms="9063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Navigate to the LOGIN Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T13:47:13 CST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-17T13:47:22 CST" duration-ms="9063" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Display error for invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Error initializing Excel data: org.apache.poi.openxml4j.exceptions.InvalidFormatException: Failed to parse relationships]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Error initializing Excel data: org.apache.poi.openxml4j.exceptions.InvalidFormatException: Failed to parse relationships
+at appHook.Hooks.setUp(Hooks.java:35)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@3b74ac8]" started-at="2024-12-17T13:47:24 CST" name="tearDownClass" finished-at="2024-12-17T13:47:30 CST" duration-ms="5488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
