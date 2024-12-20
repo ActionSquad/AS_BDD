@@ -6,6 +6,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import java.time.Duration;
 import common.ConfigReader;
+import common.LoggerLoad;
 
 public class DriverConfig {
 	static String URL = ConfigReader.getProperty("URL");
@@ -13,7 +14,6 @@ public class DriverConfig {
 	public  static void getdriver(String browser)
 	{
 		WebDriver driver=null;
-		System.out.println("Inside method");
 		if(driver==null)
 		{
 			if (browser.equalsIgnoreCase("chrome"))
@@ -37,10 +37,11 @@ public class DriverConfig {
 		getDriverInstance().manage().window().maximize();
 		getDriverInstance().manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		getDriverInstance().get(URL);
-		
+		LoggerLoad.info("DsAlgo Portal Url :" + URL );
 	}
 	
 	public static  WebDriver getDriverInstance() {
+		LoggerLoad.info("Driver Instance is created");
 		return ThreadLocaldriver.get();
 		
 	}

@@ -6,6 +6,7 @@ import java.util.Map;
 import org.testng.Assert;
 
 import appHook.Hooks;
+import common.LoggerLoad;
 import driverFactory.DriverConfig;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

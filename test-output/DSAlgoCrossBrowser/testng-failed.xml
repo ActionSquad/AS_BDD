@@ -8,10 +8,23 @@
         <methods>
           <include name="setUpClass"/>
           <include name="defineBrowser"/>
+          <include name="runScenario" invocation-numbers="0 3 5"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0 1 5"/>
         </methods>
       </class> <!-- testRunner.TestRunner -->
     </classes>
   </test> <!-- TestChrome(failed) -->
+  <test thread-count="7" name="Testedge(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="testRunner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="defineBrowser"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- testRunner.TestRunner -->
+    </classes>
+  </test> <!-- Testedge(failed) -->
 </suite> <!-- Failed suite [DSAlgoCrossBrowser] -->

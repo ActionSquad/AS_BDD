@@ -1,0 +1,356 @@
+[INFO ] 2024-12-20 00:35:42.883 [main] LoggerLoad - chrome is Running
+[INFO ] 2024-12-20 00:35:44.529 [TestNG-PoolService-4] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:35:44.529 [TestNG-PoolService-6] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:35:44.530 [TestNG-PoolService-3] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:35:44.532 [TestNG-PoolService-2] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:35:44.532 [TestNG-PoolService-5] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:35:44.533 [TestNG-PoolService-1] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:35:44.534 [TestNG-PoolService-5] LoggerLoad - URL  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:35:50.464 [TestNG-PoolService-3] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:50.465 [TestNG-PoolService-2] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:50.490 [TestNG-PoolService-1] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:51.860 [TestNG-PoolService-2] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:51.875 [TestNG-PoolService-2] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:52.264 [TestNG-PoolService-1] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:52.290 [TestNG-PoolService-1] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:52.303 [TestNG-PoolService-3] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:52.325 [TestNG-PoolService-3] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:52.376 [TestNG-PoolService-4] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:52.506 [TestNG-PoolService-5] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:52.627 [TestNG-PoolService-6] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:52.819 [TestNG-PoolService-2] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:35:52.819 [TestNG-PoolService-2] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:35:53.007 [TestNG-PoolService-4] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:53.024 [TestNG-PoolService-4] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:53.399 [TestNG-PoolService-3] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:35:53.400 [TestNG-PoolService-3] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:35:53.524 [TestNG-PoolService-6] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:53.533 [TestNG-PoolService-6] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:53.725 [TestNG-PoolService-3] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:35:53.726 [TestNG-PoolService-2] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:35:54.016 [TestNG-PoolService-4] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:35:54.017 [TestNG-PoolService-4] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:35:54.017 [TestNG-PoolService-5] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:54.022 [TestNG-PoolService-4] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:35:54.036 [TestNG-PoolService-5] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:54.485 [TestNG-PoolService-1] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:35:54.485 [TestNG-PoolService-1] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:35:54.488 [TestNG-PoolService-1] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:35:54.758 [TestNG-PoolService-5] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:35:54.759 [TestNG-PoolService-5] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:35:54.767 [TestNG-PoolService-5] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:35:55.206 [TestNG-PoolService-6] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:35:55.206 [TestNG-PoolService-6] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:35:55.210 [TestNG-PoolService-6] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[WARN ] 2024-12-20 00:35:57.674 [TestNG-PoolService-6] OPCPackage - Unable to call close() on a package that hasn't been fully opened yet
+[ERROR] 2024-12-20 00:35:57.698 [TestNG-PoolService-1] LoggerLoad - Error initializing Excel data: org.apache.poi.openxml4j.exceptions.InvalidFormatException: Failed to parse relationships
+[INFO ] 2024-12-20 00:35:57.744 [TestNG-PoolService-1] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:35:57.756 [TestNG-PoolService-1] LoggerLoad - Driver Instance is created
+[ERROR] 2024-12-20 00:35:57.897 [TestNG-PoolService-4] ZipPartMarshaller - Cannot write: /xl/worksheets/sheet3.xml: in ZIP
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.base/java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:274) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.InflaterInputStreamWithStatistics.fill(InflaterInputStreamWithStatistics.java:51) ~[commons-compress-1.26.2.jar:1.26.2]
+	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:176) ~[?:?]
+	at org.apache.commons.compress.archivers.zip.InflaterInputStreamWithStatistics.read(InflaterInputStreamWithStatistics.java:76) ~[commons-compress-1.26.2.jar:1.26.2]
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:119) ~[?:?]
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.read(ZipArchiveThresholdInputStream.java:78) ~[poi-ooxml-5.3.0.jar:5.3.0]
+	at org.apache.poi.util.IOUtils.copy(IOUtils.java:413) ~[poi-5.3.0.jar:5.3.0]
+	at org.apache.poi.util.IOUtils.copy(IOUtils.java:392) ~[poi-5.3.0.jar:5.3.0]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.ZipPartMarshaller.marshall(ZipPartMarshaller.java:91) ~[poi-ooxml-5.3.0.jar:5.3.0]
+	at org.apache.poi.openxml4j.opc.ZipPackagePart.save(ZipPackagePart.java:127) ~[poi-ooxml-5.3.0.jar:5.3.0]
+	at org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller.marshall(DefaultMarshaller.java:46) ~[poi-ooxml-5.3.0.jar:5.3.0]
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:590) ~[poi-ooxml-5.3.0.jar:5.3.0]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1531) ~[poi-ooxml-5.3.0.jar:5.3.0]
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1518) ~[poi-ooxml-5.3.0.jar:5.3.0]
+	at org.apache.poi.openxml4j.opc.ZipPackage.closeImpl(ZipPackage.java:476) ~[poi-ooxml-5.3.0.jar:5.3.0]
+	at org.apache.poi.openxml4j.opc.OPCPackage.close(OPCPackage.java:502) ~[poi-ooxml-5.3.0.jar:5.3.0]
+	at org.apache.poi.ooxml.POIXMLDocument.close(POIXMLDocument.java:189) ~[poi-ooxml-5.3.0.jar:5.3.0]
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.close(XSSFWorkbook.java:642) ~[poi-ooxml-5.3.0.jar:5.3.0]
+	at common.ExcelReader.getData(ExcelReader.java:24) ~[test-classes/:?]
+	at appHook.Hooks.setUp(Hooks.java:37) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.20.1.jar:7.20.1]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.20.1.jar:7.20.1]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.20.1.jar:7.20.1]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:47) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135) ~[cucumber-testng-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136) ~[cucumber-core-7.20.1.jar:7.20.1]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.20.1.jar:7.20.1]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.20.1.jar:7.20.1]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+[ERROR] 2024-12-20 00:35:58.713 [TestNG-PoolService-4] LoggerLoad - Error initializing Excel data: Fail to save: an error occurs while saving the package : The part /xl/worksheets/sheet3.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@7fc9ca1. Enable logging via Log4j 2 for more details.
+[INFO ] 2024-12-20 00:35:58.400 [TestNG-PoolService-1] LoggerLoad - Screenshot saved to:C:\Users\12017\Desktop\Ela Selenium Projects\AS_BDD\screenshots\Navigate_to_the_LOGIN_Page20241220_003558.png
+[ERROR] 2024-12-20 00:35:58.229 [TestNG-PoolService-6] LoggerLoad - Error initializing Excel data: org.apache.poi.openxml4j.exceptions.InvalidFormatException: Can't read content types part !
+[INFO ] 2024-12-20 00:35:58.731 [TestNG-PoolService-2] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:58.731 [TestNG-PoolService-3] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:58.737 [TestNG-PoolService-1] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:35:58.737 [TestNG-PoolService-5] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:58.737 [TestNG-PoolService-1] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:58.740 [TestNG-PoolService-4] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:35:58.743 [TestNG-PoolService-4] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:58.743 [TestNG-PoolService-6] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:35:58.744 [TestNG-PoolService-6] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:58.788 [TestNG-PoolService-1] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:59.001 [TestNG-PoolService-4] LoggerLoad - Screenshot saved to:C:\Users\12017\Desktop\Ela Selenium Projects\AS_BDD\screenshots\Display_error_for_empty_username_field20241220_003558.png
+[INFO ] 2024-12-20 00:35:59.005 [TestNG-PoolService-4] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:35:59.005 [TestNG-PoolService-4] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:59.026 [TestNG-PoolService-4] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:59.043 [TestNG-PoolService-6] LoggerLoad - Screenshot saved to:C:\Users\12017\Desktop\Ela Selenium Projects\AS_BDD\screenshots\Successful_login_with_valid_credentials20241220_003559.png
+[INFO ] 2024-12-20 00:35:59.053 [TestNG-PoolService-6] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:35:59.054 [TestNG-PoolService-6] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:35:59.104 [TestNG-PoolService-6] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:02.333 [TestNG-PoolService-2] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:36:02.338 [TestNG-PoolService-2] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:36:02.339 [TestNG-PoolService-2] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:02.468 [TestNG-PoolService-2] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:02.529 [TestNG-PoolService-5] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:36:02.534 [TestNG-PoolService-5] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:36:02.534 [TestNG-PoolService-5] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:02.671 [TestNG-PoolService-5] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:02.807 [TestNG-PoolService-3] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:36:02.812 [TestNG-PoolService-3] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:36:02.812 [TestNG-PoolService-3] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:03.413 [TestNG-PoolService-3] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:10.236 [main] LoggerLoad - firefox is Running
+[INFO ] 2024-12-20 00:36:10.440 [TestNG-PoolService-2] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:36:10.457 [TestNG-PoolService-1] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:36:10.477 [TestNG-PoolService-4] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:36:10.484 [TestNG-PoolService-3] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:36:10.493 [TestNG-PoolService-5] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:36:10.564 [TestNG-PoolService-6] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:36:24.984 [TestNG-PoolService-5] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:25.111 [TestNG-PoolService-5] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:25.393 [TestNG-PoolService-5] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:26.736 [TestNG-PoolService-5] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:36:26.736 [TestNG-PoolService-5] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:36:26.885 [TestNG-PoolService-5] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:36:28.875 [TestNG-PoolService-5] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:29.331 [TestNG-PoolService-2] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:29.588 [TestNG-PoolService-2] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:29.600 [TestNG-PoolService-2] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:30.240 [TestNG-PoolService-1] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:30.257 [TestNG-PoolService-1] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:30.264 [TestNG-PoolService-1] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:31.599 [TestNG-PoolService-1] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:36:31.599 [TestNG-PoolService-2] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:36:31.600 [TestNG-PoolService-1] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:36:31.600 [TestNG-PoolService-2] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:36:31.605 [TestNG-PoolService-2] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:36:31.605 [TestNG-PoolService-1] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:36:32.000 [TestNG-PoolService-2] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:32.450 [TestNG-PoolService-1] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:32.454 [TestNG-PoolService-1] LoggerLoad - URL  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:36:33.263 [TestNG-PoolService-4] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:33.275 [TestNG-PoolService-4] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:33.294 [TestNG-PoolService-4] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:34.301 [TestNG-PoolService-5] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:36:34.396 [TestNG-PoolService-5] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:36:34.397 [TestNG-PoolService-5] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:34.561 [TestNG-PoolService-5] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:34.667 [TestNG-PoolService-1] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:36:34.671 [TestNG-PoolService-1] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:36:34.671 [TestNG-PoolService-1] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:34.683 [TestNG-PoolService-1] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:34.966 [TestNG-PoolService-4] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:36:34.966 [TestNG-PoolService-4] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:36:34.970 [TestNG-PoolService-4] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:36:36.003 [TestNG-PoolService-4] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:36.248 [TestNG-PoolService-2] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:36:36.252 [TestNG-PoolService-2] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:36:36.253 [TestNG-PoolService-2] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:36.261 [TestNG-PoolService-2] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:36.348 [TestNG-PoolService-3] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:36.355 [TestNG-PoolService-3] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:36.365 [TestNG-PoolService-3] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:37.072 [TestNG-PoolService-6] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:37.080 [TestNG-PoolService-6] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:37.090 [TestNG-PoolService-6] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:37.916 [TestNG-PoolService-6] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:36:37.917 [TestNG-PoolService-6] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:36:37.920 [TestNG-PoolService-6] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:36:38.391 [TestNG-PoolService-6] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:38.950 [TestNG-PoolService-4] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:36:38.956 [TestNG-PoolService-4] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:36:38.956 [TestNG-PoolService-4] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:38.965 [TestNG-PoolService-4] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:40.156 [TestNG-PoolService-3] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:36:40.156 [TestNG-PoolService-3] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:36:40.164 [TestNG-PoolService-3] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:36:40.685 [TestNG-PoolService-3] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:42.755 [TestNG-PoolService-6] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:36:42.757 [TestNG-PoolService-6] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:36:42.757 [TestNG-PoolService-6] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:42.764 [TestNG-PoolService-6] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:42.907 [TestNG-PoolService-3] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:36:42.917 [TestNG-PoolService-3] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:36:42.917 [TestNG-PoolService-3] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:42.928 [TestNG-PoolService-3] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:46.282 [main] LoggerLoad - edge is Running
+[INFO ] 2024-12-20 00:36:46.433 [TestNG-PoolService-2] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:36:46.481 [TestNG-PoolService-5] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:36:46.492 [TestNG-PoolService-1] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:36:46.499 [TestNG-PoolService-4] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:36:46.514 [TestNG-PoolService-6] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:36:46.552 [TestNG-PoolService-3] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:36:49.492 [TestNG-PoolService-1] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:49.627 [TestNG-PoolService-1] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:49.632 [TestNG-PoolService-1] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:50.115 [TestNG-PoolService-1] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:36:50.115 [TestNG-PoolService-1] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:36:50.120 [TestNG-PoolService-1] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:36:50.434 [TestNG-PoolService-1] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:50.464 [TestNG-PoolService-1] LoggerLoad - URL  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:36:51.454 [TestNG-PoolService-1] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:36:51.457 [TestNG-PoolService-1] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:36:51.457 [TestNG-PoolService-1] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:51.904 [TestNG-PoolService-1] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:54.261 [TestNG-PoolService-2] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:54.305 [TestNG-PoolService-3] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:54.305 [TestNG-PoolService-4] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:54.564 [TestNG-PoolService-2] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:54.625 [TestNG-PoolService-2] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:54.950 [TestNG-PoolService-6] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:55.604 [TestNG-PoolService-3] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:55.663 [TestNG-PoolService-3] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:55.860 [TestNG-PoolService-4] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:55.932 [TestNG-PoolService-2] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:36:55.932 [TestNG-PoolService-2] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:36:55.935 [TestNG-PoolService-2] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:36:56.132 [TestNG-PoolService-4] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:56.589 [TestNG-PoolService-5] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:56.908 [TestNG-PoolService-3] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:36:56.908 [TestNG-PoolService-3] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:36:56.911 [TestNG-PoolService-3] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:36:57.009 [TestNG-PoolService-5] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:57.074 [TestNG-PoolService-6] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:57.132 [TestNG-PoolService-6] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:57.181 [TestNG-PoolService-5] LoggerLoad - Driver Instance is created
+[ERROR] 2024-12-20 00:36:57.373 [TestNG-PoolService-3] LoggerLoad - Error initializing Excel data: java.io.EOFException: Unexpected end of ZLIB input stream
+[INFO ] 2024-12-20 00:36:57.382 [TestNG-PoolService-4] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:36:57.382 [TestNG-PoolService-4] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:36:57.541 [TestNG-PoolService-4] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:36:57.552 [TestNG-PoolService-3] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:36:57.552 [TestNG-PoolService-3] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:57.820 [TestNG-PoolService-5] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:36:57.822 [TestNG-PoolService-5] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:36:57.826 [TestNG-PoolService-5] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:36:57.945 [TestNG-PoolService-3] LoggerLoad - Screenshot saved to:C:\Users\12017\Desktop\Ela Selenium Projects\AS_BDD\screenshots\Display_error_for_empty_password_field20241220_003657.png
+[INFO ] 2024-12-20 00:36:57.947 [TestNG-PoolService-3] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:36:57.948 [TestNG-PoolService-3] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:57.984 [TestNG-PoolService-3] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:58.299 [TestNG-PoolService-2] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:58.379 [TestNG-PoolService-4] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:36:59.015 [TestNG-PoolService-6] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:36:59.206 [TestNG-PoolService-6] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:36:59.210 [TestNG-PoolService-6] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:36:59.213 [TestNG-PoolService-5] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:37:00.262 [TestNG-PoolService-6] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:37:02.717 [TestNG-PoolService-5] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:37:02.720 [TestNG-PoolService-5] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:37:02.720 [TestNG-PoolService-5] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:37:02.786 [TestNG-PoolService-5] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:37:03.854 [TestNG-PoolService-4] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:37:03.858 [TestNG-PoolService-4] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:37:03.858 [TestNG-PoolService-4] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:37:04.204 [TestNG-PoolService-2] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:37:04.226 [TestNG-PoolService-2] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:37:04.234 [TestNG-PoolService-2] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:37:04.335 [TestNG-PoolService-4] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:37:04.436 [TestNG-PoolService-2] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:37:05.404 [TestNG-PoolService-6] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:37:05.407 [TestNG-PoolService-6] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:37:05.407 [TestNG-PoolService-6] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:37:05.626 [TestNG-PoolService-6] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:38:59.334 [main] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:38:59.341 [main] LoggerLoad - URL  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:39:05.200 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:05.208 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:05.217 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:06.146 [main] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:39:06.146 [main] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:39:06.286 [main] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:39:07.607 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:07.658 [main] LoggerLoad - URL  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:39:08.472 [main] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:39:08.481 [main] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:39:08.481 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:08.502 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:10.240 [main] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:39:15.558 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:15.565 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:15.574 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:16.548 [main] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:39:16.548 [main] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:39:16.551 [main] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:39:17.074 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:18.493 [main] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:39:18.497 [main] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:39:18.498 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:18.509 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:20.081 [main] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:39:25.518 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:25.526 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:25.533 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:26.101 [main] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:39:26.102 [main] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:39:26.104 [main] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:39:26.646 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:28.026 [main] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:39:28.031 [main] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:39:28.031 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:28.040 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:29.567 [main] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:39:34.701 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:34.707 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:34.716 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:35.961 [main] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:39:35.961 [main] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:39:35.964 [main] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:39:36.356 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:38.055 [main] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:39:38.060 [main] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:39:38.060 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:38.069 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:39.394 [main] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:39:45.056 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:45.063 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:45.070 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:45.918 [main] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:39:45.919 [main] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:39:45.921 [main] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:39:46.348 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:47.782 [main] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:39:47.786 [main] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:39:47.786 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:47.793 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:49.213 [main] LoggerLoad - Browser  Data fetched from the Config.property file
+[INFO ] 2024-12-20 00:39:54.971 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:54.978 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:54.984 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:55.971 [main] LoggerLoad - DsAlgo Portal Url :https://dsportalapp.herokuapp.com/
+[INFO ] 2024-12-20 00:39:55.972 [main] LoggerLoad - Browser is opened
+[INFO ] 2024-12-20 00:39:55.976 [main] LoggerLoad - Excel is Initialised and Path :src/test/resources/TestData/ExcelData.xlsx
+[INFO ] 2024-12-20 00:39:56.341 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:58.059 [main] LoggerLoad - ScreenShot is created for Failure Scenarios
+[INFO ] 2024-12-20 00:39:58.063 [main] LoggerLoad - Driver Instance is Closed
+[INFO ] 2024-12-20 00:39:58.064 [main] LoggerLoad - Driver Instance is created
+[INFO ] 2024-12-20 00:39:58.070 [main] LoggerLoad - Driver Instance is created
