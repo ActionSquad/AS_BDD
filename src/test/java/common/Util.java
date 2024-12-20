@@ -61,7 +61,7 @@ public class Util {
                 }
             }
         } catch (Exception e) {
-            System.err.println("Error while entering code: " + e.getMessage());
+            LoggerLoad.error("Error while entering code: " + e.getMessage());
         }
     }
 }

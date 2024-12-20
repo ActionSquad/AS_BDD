@@ -1,6 +1,5 @@
-/appHook/
-/common/
-/driverFactory/
-/pages/
-/stepDefinitions/
 /testRunner/
+/common/
+/stepDefinitions/
+/driverFactory/
+/appHook/

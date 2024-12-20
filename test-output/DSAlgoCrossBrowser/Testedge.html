@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Testedge</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Dec 19 19:20:01 CST 2024</td>
+<td>Started on:</td><td>Fri Dec 20 00:36:46 CST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>10 seconds (10464 ms)</td>
+<tr><td>Total time:</td><td>22 seconds (22661 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,25 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Display error for empty password field", "Login Functionality"</td>
+<td><div><pre>java.lang.RuntimeException: Error initializing Excel data: java.io.EOFException: Unexpected end of ZLIB input stream
+	at appHook.Hooks.setUp(Hooks.java:42)
+</pre></div><a href='#' onClick='toggleBox("stack-trace391930297", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace391930297'><pre>java.lang.RuntimeException: Error initializing Excel data: java.io.EOFException: Unexpected end of ZLIB input stream
+	at appHook.Hooks.setUp(Hooks.java:42)
+</pre></div></td>
+<td>22</td>
+<td>testRunner.TestRunner@51f116b8</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,35 +95,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "Login Functionality"</td>
-<td></td>
-<td>9</td>
-<td>testRunner.TestRunner@f2ff811</td></tr>
-<tr>
 <td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Navigate to the LOGIN Page", "Login Functionality"</td>
 <td></td>
-<td>8</td>
-<td>testRunner.TestRunner@f2ff811</td></tr>
-<tr>
-<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Display error for empty username and password", "Login Functionality"</td>
-<td></td>
-<td>5</td>
-<td>testRunner.TestRunner@f2ff811</td></tr>
-<tr>
-<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Display error for empty password field", "Login Functionality"</td>
-<td></td>
-<td>8</td>
-<td>testRunner.TestRunner@f2ff811</td></tr>
-<tr>
-<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Display error for empty username field", "Login Functionality"</td>
-<td></td>
-<td>9</td>
-<td>testRunner.TestRunner@f2ff811</td></tr>
+<td>22</td>
+<td>testRunner.TestRunner@51f116b8</td></tr>
 <tr>
 <td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Display error for invalid credentials", "Login Functionality"</td>
 <td></td>
-<td>8</td>
-<td>testRunner.TestRunner@f2ff811</td></tr>
+<td>21</td>
+<td>testRunner.TestRunner@51f116b8</td></tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Display error for empty username and password", "Login Functionality"</td>
+<td></td>
+<td>21</td>
+<td>testRunner.TestRunner@51f116b8</td></tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Display error for empty username field", "Login Functionality"</td>
+<td></td>
+<td>22</td>
+<td>testRunner.TestRunner@51f116b8</td></tr>
+<tr>
+<td title='testRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "Login Functionality"</td>
+<td></td>
+<td>22</td>
+<td>testRunner.TestRunner@51f116b8</td></tr>
 </table><p>
 </body>
 </html>
